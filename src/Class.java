@@ -1,10 +1,12 @@
 
 public class Class{
 	public static void main(String[] args) {
-		Nstatic localNstaticVariable0 = new Nstatic();
-		Nstatic localNstaticVariable1 = new Nstatic();
+		Nstatic localObject = new Nstatic();
 		
-		localNstaticVariable0.display();
-		localNstaticVariable1.display();
+		localObject.display();
+		
+		Nstatic localObject1 = new Nstatic(1889);
+		
+		localObject1.display();
 	}
 }
